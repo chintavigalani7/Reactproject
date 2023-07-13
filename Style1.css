@@ -1,0 +1,139 @@
+.container {
+    max-width: 400px;
+    background-color: #e8e5e5;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+  }
+  .container label,
+  .container input[type="text"],
+  .container input[type="email"],
+  .container input[type="password"],
+  .container button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .container input[type="text"],
+  .container input[type="email"],
+  .container input[type="password"] {
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .container button {
+    width: 100%;
+     padding: 10px 20px;
+     background-color: black;
+   color: white;
+   text-align: center;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     display: block;
+   }
+   .container button:hover{
+     margin-top: 10px;
+     padding: 10px 20px;
+     background-color: transparent;
+     border-radius: 5px;
+     border: 1px solid black;
+     color: black;
+     cursor: pointer;
+   }
+
+  header {
+    /* background-color: #333; */
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  nav ul li a.active {
+    /* background-color: #333; */
+    color: #1a1919;
+  }
+  
+  .dashboard {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard h2 {
+    margin-bottom: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .stat {
+    text-align: center;
+    flex-basis: 30%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  .stat h3 {
+    margin-top: 0;
+  }
+  
+  .stat p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+
+  a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  a:hover{
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+  }
